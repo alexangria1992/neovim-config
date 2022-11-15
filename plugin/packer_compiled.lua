@@ -79,10 +79,35 @@ _G.packer_plugins = {
     path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
   },
+  LuaSnip = {
+    loaded = true,
+    path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\LuaSnip",
+    url = "https://github.com/L3MON4D3/LuaSnip"
+  },
+  ["cmp-buffer"] = {
+    loaded = true,
+    path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-buffer",
+    url = "https://github.com/hrsh7th/cmp-buffer"
+  },
+  ["cmp-path"] = {
+    loaded = true,
+    path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp-path",
+    url = "https://github.com/hrsh7th/cmp-path"
+  },
+  cmp_luasnip = {
+    loaded = true,
+    path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\cmp_luasnip",
+    url = "https://github.com/saadparwaiz1/cmp_luasnip"
+  },
   ["colorbuddy.nvim"] = {
     loaded = true,
     path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
+  },
+  ["friendly-snippets"] = {
+    loaded = true,
+    path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
+    url = "https://github.com/rafamadriz/friendly-snippets"
   },
   ["lualine.nvim"] = {
     loaded = true,
@@ -93,6 +118,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\neosolarized.nvim",
     url = "https://github.com/svrana/neosolarized.nvim"
+  },
+  ["nvim-cmp"] = {
+    loaded = true,
+    path = "C:\\Users\\alex_\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
+    url = "https://github.com/hrsh7th/nvim-cmp"
   },
   ["nvim-tree.lua"] = {
     loaded = true,
