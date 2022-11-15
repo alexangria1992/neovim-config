@@ -45,3 +45,10 @@ keymap.set('n', '<C-w><down>', '<C-w>-')
 -- nvim-tree
 keymap.set("n", "e", ":NvimTreeToggle<CR>")
 
+--telescope
+-- telescope
+keymap.set("n", "ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
+keymap.set("n", "fs", "<cmd>Telescope live_grep<cr>") -- find string in current working directory as you type
+keymap.set("n", "fc", "<cmd>Telescope grep_string<cr>") -- find string under cursor in current working directory
+keymap.set("n", "fb", "<cmd>Telescope buffers<cr>") -- list open buffers in current neovim instance
+keymap.set("n", "fh", "<cmd>Telescope help_tags<cr>") -- list available help tags
