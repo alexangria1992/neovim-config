@@ -29,12 +29,16 @@ end
 -- add list of plugins to install
 return packer.startup(function(use)
   -- packer can manage itself
+  use("nvim-lua/plenary.nvim")
   use("wbthomason/packer.nvim")
   use("bluz71/vim-nightfly-guicolors") -- preferred colorscheme
   use{'svrana/neosolarized.nvim',
       requires = {'tjdevries/colorbuddy.nvim'}
     }
   use("numToStr/Comment.nvim")
+
+  -- file explorer
+  use("nvim-tree/nvim-tree.lua")
 
   if packer_bootstrap then
     require("packer").sync()
