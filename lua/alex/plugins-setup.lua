@@ -34,7 +34,8 @@ return packer.startup(function(use)
   use{'svrana/neosolarized.nvim',
       requires = {'tjdevries/colorbuddy.nvim'}
     }
-  
+  use("numToStr/Comment.nvim")
+
   if packer_bootstrap then
     require("packer").sync()
   end
