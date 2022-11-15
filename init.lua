@@ -5,4 +5,4 @@ require("alex.core.colorscheme")
 require("alex.plugins.comment")
 require("alex.plugins.neosolarized")
 require("alex.plugins.nvim-tree")
-
+require("alex.plugins.lualine")
