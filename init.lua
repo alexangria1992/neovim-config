@@ -8,3 +8,7 @@ require("alex.plugins.nvim-tree")
 require("alex.plugins.lualine")
 require("alex.plugins.telescope")
 require("alex.plugins.nvim-cmp")
+require("alex.plugins.lsp.mason")
+require("alex.plugins.lsp.lspsaga")
+require("alex.plugins.lsp.lspconfig")
+
